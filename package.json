@@ -1,0 +1,19 @@
+{
+  "name": "tm-service",
+  "version": "1.0.0",
+  "description": "wow awesome",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "v6.8.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "restify": "^4.3.0"
+  }
+}
