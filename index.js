@@ -12,7 +12,6 @@ function respond(req, res, next) {
 }
 
 var server = restify.createServer();
-server.use(restify.CORS());
 
 server.get('/hi', function(req, res, next) {
   var file = fs.readFileSync('./index.html', 'utf-8');
